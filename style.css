@@ -162,11 +162,97 @@ nav {
 
 
 
+
+
+.contenedor-juegos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contenedor-iconos .icon-container:first-child {
+    margin-right: 25px; /* Ajusta este valor para cambiar el espacio entre los icon-container */
+}
+.icon-container {
+    width: 100px; /* Se ajusta al contenido */
+    height: 35px; /* Ajusta según tus necesidades */
+    padding: 10px; /* Ajusta según tus necesidades */
+    border-radius: 20px; /* Esto hace que las esquinas del cuadro sean redondeadas */
+    background-color: hsl(0, 5%, 52%); /* Ajusta según tus necesidades */
+    display: flex;
+    flex-direction: row; /* Los elementos se disponen en una fila */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px; /* Ajusta según tus necesidades */
+    border: 2px solid rgb(187, 183, 183);
+}
+
+.icon {
+    width: 30px; /* Ajusta según tus necesidades */
+    height: 30px; /* Ajusta según tus necesidades */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px; /* Añade un margen a la derecha del icono */
+}
+
+.icon.icon1 {
+    background-image: url('./imagenes/wowicon.png'); /* Reemplaza con la ruta a tu imagen */
+}
+
+.icon.icon2 {
+    background-image: url('./imagenes/blizicon.png'); /* Reemplaza con la ruta a tu imagen */
+}
+
+
+.icon-container span {
+    font-size: 20px; /* Ajusta según tus necesidades */
+    text-align: center;
+}
+
+
+
+
+.juego {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; /* Ajusta según tus necesidades */
+}
+
+.juego h2 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.juego p {
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.juego img {
+    border-radius: 50px; /* Ajusta según tus necesidades */
+    width: 80%;
+    border: 2px solid gray; /* Añade un borde de 2px de color gris */
+}
+
+.IconLogoXl img {
+    margin-top: 0;
+    width: 200px; /* Ajusta este valor para cambiar el ancho de la imagen */
+    margin-bottom: 10px; /* Ajusta este valor para cambiar el margen inferior de la imagen */
+}
+
+
+
 .sobre-mi {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0; 
+    margin: 200px 0; 
 }
 
 .texto {
